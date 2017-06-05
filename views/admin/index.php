@@ -6,10 +6,22 @@
             <br>
             <p>Вам доступны следующие действия:</p>
             <br>
-            <ul>
-                <li><a href="/eshop/admin/product">Управление товарами</a></li>
-                <li><a href="/eshop/admin/category">Управление категориями</a></li>
-                <li><a href="/eshop/admin/order">Управление заказами</a></li>
+            <ul id="admin-actions">
+                <li>
+                    <a href="/eshop/admin/product">
+                        <button type="button" class="btn btn-info btn-lg btn-block">Управление товарами</button>
+                    </a>
+                </li>
+                <li>
+                    <a href="/eshop/admin/category">
+                        <button type="button" class="btn btn-success btn-lg btn-block">Управление категориями</button>
+                    </a>
+                </li>
+                <li>
+                    <a href="/eshop/admin/order">
+                        <button type="button" class="btn btn-default btn-lg btn-block">Управление заказами</button>
+                    </a>
+                </li>
             </ul>
         </div>
     </div>

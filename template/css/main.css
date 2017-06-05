@@ -1587,18 +1587,18 @@ h2.title {
   padding: 3px 10px;
 }
 
-.breadcrumbs .breadcrumb li a:after {
-  content:"";
-  height:auto;
-  width: auto;
-  border-width: 8px;
-  border-style: solid;
-  border-color:transparent transparent transparent #4286f4;
-  position: absolute;
-  top: 11px;
-  left:10%;
+/*.breadcrumbs .breadcrumb li a:after {*/
+  /*content:"";*/
+  /*height:auto;*/
+  /*width: auto;*/
+  /*border-width: 8px;*/
+  /*border-style: solid;*/
+  /*border-color:transparent transparent transparent #4286f4;*/
+  /*position: absolute;*/
+  /*top: 11px;*/
+  /*left:10%;*/
 
-}
+/*}*/
 
 .breadcrumbs .breadcrumb > li + li:before {
   content: " ";
@@ -2564,5 +2564,7 @@ h2.title {
 .contact-info .social-networks ul li a:hover{
   color: #4286f4;
 }
-
+ul#admin-actions li{
+  margin:20px 0 !important;
+}
 
