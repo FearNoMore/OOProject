@@ -25,13 +25,15 @@
 
                 <div class="col-sm-9 padding-right">
                     <div class="features_items"><!--features_items-->
-                        <h2 class="title text-center">Последние товары</h2>
+                        <h2 class="title text-center">Товары</h2>
                         <?php foreach ($categoryProducts as $product): ?>
                             <div class="col-sm-4">
                                 <div class="product-image-wrapper">
                                     <div class="single-products">
                                         <div class="productinfo text-center">
-                                            <img width="300px" height="200px" src="<?php echo Product::getImage($product['id']); ?>" alt="">
+                                            <a href="/eshop/product/<?php echo $product['id'];?>">
+                                                <img width="300px" height="200px" src="<?php echo Product::getImage($product['id']); ?>" alt="">
+                                            </a>
                                             <h2>$<?php echo $product['price'];?></h2>
                                             <p>
                                                 <a href="/eshop/product/<?php echo $product['id'];?>">
